@@ -119,18 +119,18 @@
 	  
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">Masab Pervaiz</a>
+	      <a class="navbar-brand" href="index.html" id="grey-text">Masab Pervaiz</a>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#home-section" class="nav-link"><span id="grey-text">Home</span></a></li>
+	          <li class="nav-item"><a href="#about-section" class="nav-link"><span  id="grey-text">About</span></a></li>
 	          <!-- <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li> -->
-	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
-	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	          <li class="nav-item"><a href="#project-section" class="nav-link"><span  id="grey-text">Projects</span></a></li>
+	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span id="grey-text">Contact</span></a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -146,8 +146,8 @@
 	          	</div>
 		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 		          	<div class="text">
-		          		<span class="subheading">Hello!</span>
-			            <h1 class="mb-4 mt-3">I'm <span>Masab Pervaiz</span></h1>
+		          		<span id="blue-text" class="subheading">Hello!</span>
+			            <h1 class="mb-4 mt-3" id="grey-text">I'm <span id="blue-text">Masab Pervaiz</span></h1>
 
 						<!-- Element to contain animated typing -->
 						<span id="typing-animation"></span>
@@ -156,6 +156,8 @@
 
 						// Initialize the typing animation
 						const typingAnimationElement = document.getElementById('typing-animation');
+
+						typingAnimationElement.style.color = "#807d7d"
 
 						// Create an array of typing text
 						const typingTexts = [
@@ -187,11 +189,11 @@
 
 						<br>
 						<br>
-			            <h2>A Supply Chain Analyst</h2>
+			            <h2 id="blue-text">A Supply Chain Analyst</h2>
 						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
 						<!-- <br> -->
-			            <p><a href="https://www.upwork.com/freelancers/~0191d26a77479d5919" class="btn btn-primary py-3 px-4">UpWork</a> 
-							<a href="https://github.com/SyedMasab1" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+			            <p><a href="https://www.upwork.com/freelancers/~0191d26a77479d5919" class="btn  py-3 px-4" id="blue-btn">UpWork</a> 
+							<a href="https://github.com/SyedMasab1" class="btn btn-outline py-3 px-4" id="grey-btn">My works</a></p>
 		            </div>
 		          </div>
 	        	</div>
@@ -217,7 +219,7 @@
 									  </div>
 									</div>
 									<!-- Details next to profile image -->
-									<div class="col-sm-6 col-md-7">
+									<div class="col-sm-6 col-md-7" id="blue-text">
 									  <div class="about-info">
 										<p><span class="title-s">Name: </span> <span>Masab Pervaiz</span></p>
 										<p><span class="title-s">Job Role: </span> <span>Data Analyst, BI Reporting ,Supply Chain Analyst</span></p>
@@ -227,7 +229,7 @@
 									</div>
 								  </div>
 
-								<div class="skill-mf">
+								<div class="skill-mf" id="blue-text">
 									<p class="title-s">Skills</p>
 									<span>SQL</span> <span class="pull-right">95%</span>
 									<div class="progress">
@@ -263,22 +265,22 @@
 						</div>
 					</div>
 					
-					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5" id="blue-text">
 						<div class="row justify-content-start pb-3">
 							<div class="col-md-12 heading-section ftco-animate">
 								
 								<h1 class="big">About</h1>
-								<h2 class="mb-4">About Me</h2>
+								<h2 class="mb-4" id="blue-text">About Me</h2>
 								
 								<p>I am a Data Analyst with intermediate proficiency in Supply Chain Analyst,Data Analytics and Business Intelligence Reporting. I specialize in transforming complex datasets into actionable insights, empowering teams to make impactful decisions. Using ETL techniques, I work with tools such as SQL, Excel, and Power BI to efficiently manage data, optimize processes, and create meaningful visualizations. 
 								    Always eager to enhance my skills and contribute to data-driven success, I’m looking forward to connecting with professionals and exploring new opportunities!</p>
 								<ul class="about-info mt-4 px-md-0 px-2">
-									<li class="d-flex"><span>Profile:</span> <span>Data Analytics , Supply Chain Analysis &amp; Business Analytics</span></li>
-									<li class="d-flex"><span>Domain:</span> <span> E-commerce &amp; Supply Chain</span></li>
-									<li class="d-flex"><span>Education:</span> <span>Bachelor of Business Administration</span></li>
-									<li class="d-flex"><span>Language:</span> <span>English</span></li>
-									<li class="d-flex"><span>BI Tools:</span> <span>Microsoft Power BI </span></li>
-									<li class="d-flex"><span>Other Skills:</span> <span>SQL, MySQL,Ms Excel, Git,Data Cleaning,Data Visualization</span></li>
+									<li class="d-flex"><span id="blue-text">Profile:</span> <span>Data Analytics , Supply Chain Analysis &amp; Business Analytics</span></li>
+									<li class="d-flex"><span id="blue-text">Domain:</span> <span> E-commerce &amp; Supply Chain</span></li>
+									<li class="d-flex"><span id="blue-text">Education:</span> <span>Bachelor of Business Administration</span></li>
+									<li class="d-flex"><span id="blue-text">Language:</span> <span>English</span></li>
+									<li class="d-flex"><span id="blue-text">BI Tools:</span> <span>Microsoft Power BI </span></li>
+									<li class="d-flex"><span id="blue-text">Other Skills:</span> <span>SQL, MySQL,Ms Excel, Git,Data Cleaning,Data Visualization</span></li>
 									<!-- <li class="d-flex"><span>Interest:</span> <span>Traveling, Travel Photography, Teaching</span></li> -->
 									
 								</ul>
@@ -289,10 +291,10 @@
 						<div class="counter-wrap ftco-animate d-flex mt-md-3">
 							<div class="text">
 								<p class="mb-4">
-									<span class="number" data-number="6">0</span> <span>+</span>
-									<span>&nbsp; Projects completed</span>
+									<span id="blue-text" class="number" data-number="6">0</span> <span>+</span>
+									<span id="blue-text">&nbsp; Projects completed</span>
 								</p>
-								<p><a href="www.linkedin.com/in/masabpervaiz" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
+								<p><a href="www.linkedin.com/in/masabpervaiz" class="btn py-3 px-3" id="blue-btn">LinkedIn</a></p>
 							</div>
 						</div>
 					</div>
@@ -309,8 +311,8 @@
     		<div class="row justify-content-center pb-5">
           <div class="col-md-10 heading-section text-center ftco-animate">
           	<h1 class="big big-2">Resume</h1>
-            <h2 class="mb-4">Resume</h2>
-            <p>Data Analyst with Expertise in SQL & Power BI
+            <h2 class="mb-4" id="blue-text">Resume</h2>
+            <p id="blue-text">Data Analyst with Expertise in SQL & Power BI
 				Leveraged data analysis, ETL, and dashboard creation in recent projects to drive business insights. Skilled in SQL, data visualization, and reporting, supporting decision-making with Power BI and Excel. Certified in data analytics from Coursera, Cisco, and Harvard.
 				
 				</p>
@@ -318,15 +320,14 @@
         </div>
 
 		<div class="row">
-			<h1 class="big-4">EXPERIENCE</h1>
-			<div class="underline"></div>
+			<h1 class="big-4" id="blue-text">EXPERIENCE</h1>
 		</div>
 		<br>
 		
 		<div class="row">
 				<div class="col-md-6">
-					<div class="resume-wrap ftco-animate">
-						<span class="date">2025</span>
+					<div class="resume-wrap ftco-animate"  style="background-color: #2A3663;">
+						<span class="date" id="grey-text">2025</span>
 						<h2>Port Qasim Authority</h2>
 						<!-- <span class="position">Merkle</span> -->
 						<p class="mt-4">Intern at Stores/Procurement and Cargo Department, analyzing quotation-based procurement processes and documentation workflows.
@@ -343,8 +344,8 @@
 				</div>
 
 				<div class="col-md-6">
-					<div class="resume-wrap ftco-animate">
-						<span class="date">2024</span>
+					<div class="resume-wrap ftco-animate"  style="background-color: #2A3663;">
+						<span class="date" id="grey-text">2024</span>
 						<h2>Real IT Solutions</h2>
 						<!-- <span class="position">iQuanti</span> -->
 						<p class="mt-4">Joined as an Intern Power BI Reporter, creating interactive reports and dashboards to visualize key business metrics.
@@ -363,10 +364,6 @@
 		<br>
 		<br>
 
-		<div class="row">
-			<!-- <h1 class="big-4">Education</h1> -->
-			<div class="underline"></div>
-		</div>
 		<br>
 		
 			<div class="row">
@@ -404,8 +401,8 @@
         <div class="row justify-content-center mb-5 pb-5">
           <div class="col-md-7 heading-section text-center ftco-animate">
             <h1 class="big big-2">Projects</h1>
-            <h2 class="mb-4">Projects</h2>
-            <p>Below are the sample Data Analytics projects on SQL, Power BI & Ms Excel.</p>
+            <h2 class="mb-4" id="blue-text">Projects</h2>
+            <p id="blue-text">Below are the sample Data Analytics projects on SQL, Power BI & Ms Excel.</p>
           </div>
         </div>
         <div class="row d-flex">
@@ -415,8 +412,8 @@
               </a>
               <div class="text mt-3 float-right d-block">
 
-                <h3 class="heading"><a href="https://github.com/SyMasab/T20-World-Cup-2024-Analysis">T20 World Cup Analysis Using SQL</a></h3>
-                <p>Utilized SQL to analyze team performance, player stats, and match outcomes. Created Power BI dashboards to visualize top players, match trends, and Super Over scenarios.</p>
+                <h3 class="heading"><a href="https://github.com/SyMasab/T20-World-Cup-2024-Analysis" id="blue-text">T20 World Cup Analysis Using SQL</a></h3>
+                <p id="blue-text">Utilized SQL to analyze team performance, player stats, and match outcomes. Created Power BI dashboards to visualize top players, match trends, and Super Over scenarios.</p>
               </div>
             </div>
           </div>
@@ -426,8 +423,8 @@
               </a>
               <div class="text mt-3 float-right d-block">
 
-                <h3 class="heading"><a href="https://github.com/SyMasab/Impact-of-Mobile-Phones-on-Students">Analyzed usage and health impacts using SQL and Power</a></h3>
-                <p>Analyzed smartphone usage, screen time, and health impacts using SQL. Created Power BI dashboards to visualize trends and provide insights into student well-being.</p>
+                <h3 class="heading"><a href="https://github.com/SyMasab/Impact-of-Mobile-Phones-on-Students" id="blue-text">Analyzed usage and health impacts using SQL and Power</a></h3>
+                <p id="blue-text">Analyzed smartphone usage, screen time, and health impacts using SQL. Created Power BI dashboards to visualize trends and provide insights into student well-being.</p>
               </div>
             </div>
           </div>
@@ -437,8 +434,8 @@
               </a>
               <div class="text mt-3 float-right d-block"> 
 
-                <h3 class="heading"><a href="https://github.com/SyedMasab1/SCM-Analysis"> Supermarket Sales Analysis</a></h3>
-                <p>The report includes 6 pages, starting with a title page and followed by category-specific insights. Each page focuses on key performance indicators (KPIs). </p>
+                <h3 class="heading"><a href="https://github.com/SyedMasab1/SCM-Analysis" id="blue-text"> Supermarket Sales Analysis</a></h3>
+                <p id="blue-text">The report includes 6 pages, starting with a title page and followed by category-specific insights. Each page focuses on key performance indicators (KPIs). </p>
               </div>
             </div>
           </div>
@@ -475,18 +472,18 @@
 	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
       <div class="container">
 		<div class="row d-md-flex align-items-center">
-          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
+          <div class="col-md d-flex justify-content-center counter-wrap ftco-animate" >
+            <div class="block-18" id="grey-bg">
               <div class="text">
-                <strong class="number" data-number="5">0</strong>
+                <strong class="number" data-number="5" id="blue-text">0</strong>
                 <span>Achievements</span>
               </div>
             </div>
           </div>
           <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-            <div class="block-18">
+            <div class="block-18" id="grey-bg">
               <div class="text">
-                <strong class="number" data-number="7">0</strong>
+                <strong class="number" data-number="7" id="blue-text">0</strong>
                 <span>Projects</span>
               </div>
             </div>
@@ -510,14 +507,14 @@
         </div>
       </div>
 	
-	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
+	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg); background-color: #807d7d;">
 			<!-- <div class="container"> -->
 				<div class="row justify-content-center">
 					<div class="col-md-7 ftco-animate text-center">
-						<h2>More projects on<span> Github  </span> </h2>
+						<h2>More projects on<span id="grey-text"> Github  </span> </h2>
 						<div class="heading"> <h4> Data enthusiast skilled at solving business problems and uncovering data stories to inform decisions.</h4>
 						<br>
-						<p><a href="https://github.com/SyMasab" class="btn btn-primary py-3 px-5">GitHub</a></p>
+						<p><a href="https://github.com/SyMasab" class="btn py-3 px-5" id="blue-btn">GitHub</a></p>
 						</div>
 					</div>
 				</div>
@@ -532,8 +529,8 @@
       	<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section text-center ftco-animate">
             <h1 class="big big-2">Contact</h1>
-            <h2 class="mb-4">Contact Me</h2>
-            <p>Below are the details to reach out to me!</p>
+            <h2 class="mb-4" id="blue-text">Contact Me</h2>
+            <p id="blue-text">Below are the details to reach out to me!</p>
           <!-- </div>
         </div> -->
 		</div>
@@ -586,21 +583,21 @@
 
   <div class="col-md-6 col-lg-3 d-flex ftco-animate">
     <div class="align-self-stretch box p-4 text-center">
-      <div class="icon d-flex align-items-center justify-content-center">
-        <span class="icon-phone2"></span>
+      <div style="background-color: rgb(229, 226, 235);" class="icon d-flex align-items-center justify-content-center">
+        <span style="color: #2A3663;" class="icon-phone2"></span>
       </div>
-      <h3 class="mb-4">WhatsApp</h3>
-      <p><a href="tel://0101010101">+ 92 321 3863 550</a></p>
+      <h3 class="mb-4" id="blue-text">WhatsApp</h3>
+      <p><a href="tel://0101010101" id="blue-text">+ 92 321 3863 550</a></p>
     </div>
   </div>
 
   <div class="col-md-6 col-lg-3 d-flex ftco-animate">
     <div class="align-self-stretch box p-4 text-center">
-      <div class="icon d-flex align-items-center justify-content-center">
-        <span class="icon-paper-plane"></span>
+      <div style="background-color: rgb(229, 226, 235);" class="icon d-flex align-items-center justify-content-center">
+        <span style="color: #2A3663;" class="icon-paper-plane"></span>
       </div>
-      <h3 class="mb-4">Email Address</h3>
-      <p><a href="mailto:info@yoursite.com">syedmasab7003@gmail.com</a></p>
+      <h3 class="mb-4" id="blue-text">Email Address</h3>
+      <p><a href="mailto:info@yoursite.com" id="blue-text">syedmasab7003@gmail.com</a></p>
     </div>
   </div>
 </div>
@@ -655,9 +652,9 @@
 			</div> -->
 				<br>
 					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
-					  <li class="ftco-animate normal-txt">Find me on  </li>
+					  <li class="ftco-animate normal-txt" id="blue-text">Find me on  </li>
 					  <!-- <li class="ftco-animate"><a href="https://www.youtube.com/@RishabhMishraOfficial"><span class="icon-youtube"></span></a></li> -->
-					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/masabpervaiz"><span class="icon-linkedin"></span></a></li>  
+					  <li style="background-color: rgb(229, 226, 235); border-radius: 50%;" class="ftco-animate"><a style="color: #2A3663;" href="https://www.linkedin.com/in/masabpervaiz"><span class="icon-linkedin"></span></a></li>  
 					  <!-- <li class="ftco-animate"><a href="https://twitter.com/rishabhnmishra"><span class="icon-twitter"></span></a></li> -->
 					  <!-- <li class="ftco-animate"><a href="https://www.upwork.com/freelancers/~0191d26a77479d5919"><span class="icon-twitter"></span></a></li> -->
 					  <!-- <li class="ftco-animate">
@@ -665,8 +662,8 @@
 						  <img src="" alt="Upwork" style="width: 24px; height: 24px;">
 						</a>
 					  </li> -->
-					  <li class="ftco-animate">
-						<a href="https://www.upwork.com/freelancers/~0191d26a77479d5919" target="_blank" style="text-decoration: none; color: #6fda44; font-weight: bold;">
+					  <li style="background-color: rgb(229, 226, 235); border-radius: 50%;" class="ftco-animate">
+						<a style="color: #2A3663;" href="https://www.upwork.com/freelancers/~0191d26a77479d5919" target="_blank" style="text-decoration: none; color: #6fda44; font-weight: bold;">
 						  Upwork
 						</a>
 					  </li>
@@ -683,7 +680,7 @@
 
  
 	
-    <footer class="ftco-footer ftco-section">
+    <footer class="ftco-footer ftco-section" id="footer">
 		<div class="container">
 		  <div class="row">
 			<div class="col-md-12 text-center">
