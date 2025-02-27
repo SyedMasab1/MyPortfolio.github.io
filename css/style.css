@@ -41,10 +41,12 @@
   box-sizing: border-box; }
 
 html {
+  background-color: #fff;
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
@@ -57,7 +59,63 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: #fff;}
+
+#home-section{
+  background-color: #fff;
+}
+
+#about-section{
+  background-color: #fff;
+}
+
+#resume-section{
+  background-color: #fff;
+}
+
+#project-section{
+  background-color: #fff;
+}
+
+#contact-section{
+  background-color: #fff;
+}
+
+#footer{
+  background-color: #fff;
+}
+
+#grey-text{
+  color: #807d7d;
+}
+#blue-text{
+  color: #2A3663;
+}
+#blue-btn{
+  background-color: #2A3663;
+  color: #fff;
+}
+
+#grey-btn{
+  color: #807d7d;
+  border-color: #807d7d;
+}
+
+#grey-bg{
+  background-color: #807d7d;
+}
+
+#typing-animation{
+  color: #807d7d;
+}
+
+.progress-bar {
+  background-color: #2A3663 !important;
+}
+
+.heading{
+  color: #2A3663 !important;
+}
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -133,11 +191,11 @@ sup {
   top: -.5em; }
 
 a {
-  color: #007bff;
+  color: #2A3663;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: #0056b3;
+    color: #2A3663;
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
